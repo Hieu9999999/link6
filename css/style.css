@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+*{ 
+	box-sizing: border-box;
+}
+body{
+  font-family: 'Signika', sans-serif;font-size: 16px;color: #666666;margin: 0;  
+}
+.logo{
+	max-width: 20%;
+	padding-top: 15px; 
+}
+.text-center{
+	text-align: center;
+}
+.myDiv {
+    border: 5px outset white;
+    background-image: url("https://images.news18.com/ibnlive/uploads/2022/04/camp-nou.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+}
+.text-trang{
+	color: aliceblue;
+}
+.ss{
+	padding-top: 10px;
+}
+.ss a{
+	margin-right: 10px;
+}
+.ss ul li a{
+	padding: 10px 25px;
+	text-decoration: none;
+	color: darkred;
+	border-radius: 20px;
+}
+.img-100{ 
+	max-width: 100%; 
+	height: auto;
+}
+.canh-giua{
+    border: 5px outset white;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align: center;
+	
+}
+.canh-giua li{
+    display:inline;
+	
+}
+.canh-giua a{
+    display: inline-block;
+    padding: 10px;
+	text-decoration: none;
+	color: #363636;
+	border-radius: 20px;
+}
+.canh-giua ul li a{
+	padding: 10px 25px;
+	}
+.canh-giua ul li a:hover{
+	background-color: darkred;
+	color: white;
+	
+}
